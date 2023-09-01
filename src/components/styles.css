@@ -1,0 +1,512 @@
+.login-cont{
+    width: 300px;
+    height:300px;
+    margin:100px;
+    padding: 50px;
+    margin-left: 550px;
+    margin-top: 150px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 10);
+}
+.ltext{
+  padding-top:50px ;
+}
+.register{
+    width: 400px;
+    height:500px;
+    margin:80px;
+    padding: 50px;
+    margin-left: 550px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 10);
+}
+
+  
+  .input-form {
+    display: flex;
+    width: 80%;
+    
+  }
+  
+  .sidebar {
+    flex: 1;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    border-right: 1px solid #ddd;
+    height: auto;
+  }
+  .option{
+    /* text-align-last: center; */
+  }
+  .sidebar-option {
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .sidebar-option:hover{
+    background-color: #cccccce0;
+    
+  }
+  .sidebar-option.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .input-fields {
+    flex: 2;
+    padding: 1rem;
+   
+  }
+  
+  .input-fields input {
+    width: 70%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+
+  /* .home-img{
+    width:800px;
+    height:650px;
+    margin-left: 400px;
+  } */
+
+  .home-img {
+    width: 573px;
+    height: 582px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-top: 38px;
+  }
+.App-home{
+  overflow-x: hidden;
+}
+  #home{
+    height:680px;
+  }
+
+  .head-section {
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: #060724; */
+    background-color: rgba(17,24,39,1);
+    color:#edeced;
+    padding-top: 1px;
+    padding-left: 80px;
+   
+  }
+
+  .hst-small-txt{
+    font-size: 1rem;
+    width: 600px;
+  }
+
+  .beta{
+    height: 110px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+
+  .dbt{
+  width: 400px; /* Set the desired width */
+  height: 40px; 
+ 
+  }
+
+  .head-content {
+    margin-left: 0px;
+    margin-top: 150px;
+    font-size: xx-large;
+  }
+  .headings {
+    margin: 0.5rem 0; /* Adjust the margin values as needed */
+  }
+  .headings1 {
+    margin: 0.5rem 0;
+    padding:100px;
+    padding-top: 0px;
+    margin-top: 0px; /* Adjust the margin values as needed */
+  }
+
+.mode-toggle{
+  padding-top: 40px;
+  padding-left: 25px;
+}
+.input-fields{
+  margin-top: 10px;
+}
+
+.dropdown-home{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-right: 200px;
+  padding-top: 100px;
+  font-size: x-large;
+}
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #edeced;
+  color :black;
+  align-items: center;
+  height: 740px;
+ 
+}
+.about-us-container{
+  display: flex;
+  align-items: center; /* Vertically align items */
+  justify-content: space-between; 
+}
+.about-content {
+  display: flex;
+  align-items: center;
+  padding:25px; /* Vertically align items */
+}
+.abt-img {
+  width: 700px; 
+  height: 650px;
+  padding:25px;
+  margin-right: 20px;
+  
+}
+.about-heading-large {
+  font-size: 2rem; /* Adjust the font size as needed */
+  text-align: center;
+  margin-bottom: 20px; /* Add spacing below the heading */
+}
+
+.text-container{
+  flex:1;
+}
+
+.novelty-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(17,24,39,1);;
+  color:#ffffff;
+  padding-top: 1px;
+ 
+}
+
+.novelty-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #57e4ff;
+  margin-left: 60px;
+  
+}
+
+.nicon{
+  height: 100px;
+}
+
+.novelty-row {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.novelty-paragraph {
+  margin: 0 15px;
+}
+
+.novelty-box {
+  padding: 40px;
+  border-radius: 8px;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 10);
+}
+
+.novelty-box h2 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.novelty-box p {
+  font-size: 0.9rem;
+}
+
+.nhead{
+  margin-left: 650px;
+  margin-top: 20px;
+  padding: 5px;
+  font-size: xx-large;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgba(17,24,39,1);;
+  color:#ffffff;
+  align-items: center;
+  height: 880px;
+ 
+}
+
+.contact-content{
+  margin-left: 100px;
+    margin-top: 50px;
+    padding-top: 1px;
+    font-size: xx-large;
+}
+.ctext{
+  margin-left: 180px;
+  margin-top: 60px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-right: 280px;
+}
+
+.social-icons a {
+  color: #eb7f67; /* Change color on hover */
+   /* Icon color */
+  font-size: 1.5rem; /* Adjust the icon size as needed */
+  margin: 0 10px; /* Add some spacing between icons */
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #eb7f67; /* Change color on hover */
+}
+
+.lung-cont{
+  width: 500px;
+  margin-left: 100px;
+  padding-left: 50px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: #fafafc;
+}
+.stroke-cont{
+  width: 500px;
+  margin-left: 100px;
+  padding-left: 120px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  /* background-color: #fafafc; */
+  background-color: hsl(192, 22%, 95%);
+}
+
+
+.dia-cont{
+  width: 500px;
+  margin-left: 100px;
+  padding-left: 120px;
+  /* border: 1px solid black; */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: hsl(192, 22%, 95%);
+}
+
+.kid-cont{
+  width: 500px;
+  margin-left: 100px;
+  padding-left: 50px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.4);
+  background-color: #fafafc;
+}
+.r-grp{
+  display: flex;
+  gap: 10px;
+}
+
+.skin-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:  rgba(17,24,39,1);;
+  color :white;
+  align-items: center;
+  height: 740px;
+ 
+}
+
+.skn-img {
+  width: 350px; 
+  height: 300px;
+  padding:25px;
+  margin-right: 20px;
+  
+}
+
+.cnt-img {
+  width: 600px; 
+  height: 450px;
+  padding:25px;
+  margin-right: 20px;
+  
+}
+
+.lung-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color:  rgba(17,24,39,1);;
+  color :white;
+  align-items: center;
+  height: 740px;
+}
+
+.lung-container{
+  margin-left: 100px;
+}
+
+/* styles.css */
+.custom-box {
+  border: 3px solid white;
+  padding-left: 16px;
+  padding-bottom: 2px;
+  border-radius: 4px;
+  width: 300px;
+  margin-left: 900px;
+  margin-bottom: 300px;
+  margin-top: 1px;
+}
+
+.custom-box p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
+}
+
+.custom-box .phone {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.custom-box .email {
+  font-size: 1rem;
+}
+
+.contact-content input {
+  width: 30%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.imp-section {
+  padding: 20px;
+}
+
+.imp-content {
+  
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.line {
+  width: 100%;
+  height: 1px;
+  background-color: #000;
+  margin-top: 20px;
+}
+
+.line-paragraph {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.line-paragraph h4 {
+  margin: 0;
+}
+
+.text-below-button {
+  display: relative;
+  margin-top: 150px;
+  padding: 1px;
+  font-size: small;
+  margin-left: 1px;
+  padding-left: 0.5px;
+}
+
+.pneumonia-cont{
+  width: 700px;
+  height: 600px;
+  margin-left: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
+  /* border: 1px solid black;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 10); */
+}
+
+.PApp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.Pimage-box {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  width: 50%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.Pcenter-box {
+  margin-bottom: 20px;
+  
+}
+
+.selected-image,
+.predicted-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.Presult-box {
+  background-color: #f0f0f0;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 25px;
+  text-align: center;
+  width: 48%;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+
+/* .Presult {
+  margin-bottom: 20px;
+} */
+
+
+
+
+
+
+/* ... (previous CSS rules) */
+
+.Pcenter-box input {
+  width: 80%; /* Adjust the width as needed */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.pr{
+  margin-left: 100px;
+  padding-top: 25px;
+}
+
+/* ... (remaining CSS rules) */

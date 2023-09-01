@@ -1,0 +1,35 @@
+.unique-navbar {
+    display: flex;
+    justify-content: flex-end; /* Align everything to the right */
+    align-items: center;
+    /* background-color:#060724; */
+    background-color: rgba(31,41,55);;
+    color: white;
+    padding: 10px;
+  }  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+  }
+  
+  .nav-links a:hover {
+    color: lightblue;
+  }
+  .logo img {
+    width: 80px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 900px; /* Add spacing between logo and links */
+  }
+  .avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10px; /* Add spacing between links and avatar */
+  }

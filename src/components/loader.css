@@ -1,0 +1,27 @@
+.loader-parent{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.animate__animated.animate__zoomIn{
+  height: 500px;
+  width: 30%;
+  --animate-duration: 2s;
+  background-image: url(/src/assets/Loading-nexus.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* scale: 1.6; */
+}
+.animate__animated.zoomOut{
+  height: 500px;
+  width: 30%;
+  --animate-duration: 2s;
+  background-image: url(/src/assets/Loading-nexus.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* scale: 1.6; */
+}

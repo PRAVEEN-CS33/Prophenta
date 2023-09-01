@@ -1,0 +1,92 @@
+.adisease-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.sec1{
+ 
+  background-color: #060724;
+  background-size: contain;
+  
+}
+
+.adisease-card {
+  max-width: 300px;
+  border: 1px solid transparent;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  transition: border-color 0.3s ease-in-out;
+  margin: 20px;
+}
+
+.adisease-card:hover {
+  border-color: #007bff;
+}
+
+.slider-content {
+  width: 40px;
+  height: 0; /* Set the height to 0 to hide the slider initially */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  padding-top: 30px;
+  transition: height 0.3s ease-in-out; /* Add transition only to height */
+}
+
+.adisease-card:hover .slider-content {
+  height: 80%; /* Set the height to 100% to display the slider on hover */
+}
+
+.acard-content {
+  flex-grow: 1;
+}
+
+.adisease-info {
+  flex-grow: 1;
+}
+
+.adisease-text {
+  padding-top: 10px;
+}
+.protocols-heading {
+  margin-top: 2rem;
+}
+
+.protocol-row {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.protocol-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+.protocol-card:hover {
+  transform: translateY(-5px);
+}
+
+.protocol-image-container {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.protocol-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.protocol-description {
+  margin-top: auto;
+}
+
+
+
+
